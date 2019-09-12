@@ -1,6 +1,13 @@
-# CmPublicinterface
+# Course Manager Public Interface 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.3.
+
+This is code for teaching Web 3 students how to develop a web application.
+This part of the code is the public interface for our course manager.
+
+Visitors to our site will be able to search for courses and find out information on them.
+
+There will also be an admin interface which will allow users to set up courses.
 
 ## Development server
 
