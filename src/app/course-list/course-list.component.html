@@ -1,0 +1,17 @@
+<div class="container-fluid">
+
+<p>course-list works!</p>
+
+
+<div>
+  <app-course-row
+    *ngFor="let c of courseList"
+    [course]="c"
+    (click)='clicked(c)'
+    [class.selected]="isSelected(c)"> >
+
+  </app-course-row>
+</div>
+
+</div>
+
