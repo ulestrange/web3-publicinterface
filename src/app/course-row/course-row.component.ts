@@ -11,7 +11,7 @@ export class CourseRowComponent implements OnInit {
   @Input() course: Course;
 
   constructor() {
-   // console.log("course is ", this.course.name );
+
    }
 
   ngOnInit() {

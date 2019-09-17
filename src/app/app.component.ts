@@ -42,4 +42,8 @@ new Course(
     ]   	  
   }
 
+courseSelected (course: Course): void {
+  console.log ('Course clicked: ', course)
+}
+
 }

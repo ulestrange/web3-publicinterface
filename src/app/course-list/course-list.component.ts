@@ -31,10 +31,12 @@ export class CourseListComponent implements OnInit {
     this.onCourseSelected.emit(course);
   }
 
+  
+
   isSelected(course: Course): boolean {
     if (!course || !this.currentCourse) {
       return false;
-    }
+    }  
     return course.code === this.currentCourse.code;
   }
 
