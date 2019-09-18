@@ -11,6 +11,10 @@
     [class.text-white]="isSelected(c)" >
 
   </app-course-row>
+
+  <app-course-details  *ngIf="!!currentCourse" [course]="currentCourse" >
+
+    </app-course-details>
 </div>
 
 </div>
